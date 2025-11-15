@@ -1,0 +1,11 @@
+/* stylelint-disable at-rule-no-unknown */
+/* Allow Tailwind directives for PostCSS/Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* stylelint-enable at-rule-no-unknown */
+
+/* Optional: your custom styles below */
+body {
+  font-family: 'Inter', sans-serif;
+}
